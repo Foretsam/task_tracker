@@ -1,0 +1,8 @@
+#Etapa 1
+>Estrutura do Dado (Entidade Task)
+Cada tarefa cadastrada no sistema deve conter os seguintes campos:
+- id: Identificador único (número ou UUID gerado automaticamente).
+- title: Título da tarefa (texto, obrigatório).
+- description: Descrição detalhada (texto, opcional).
+- status: Estado atual da tarefa (texto, deve começar por padrão como "pendente").
+- createdAt: Data e hora de criação gerada automaticamente.

@@ -1,0 +1,32 @@
+#Etapa 2
+>Rotas Obrigatórias (Endpoints do CRUD)
+
+>Método HTTP POST
+- Rota (Endpoint) : /tasks
+- Operação CRUD : Create
+- O que deve fazer : Receber title e description no corpo da requisição (body) e salvar a nova tarefa.
+- Status HTTP Esperado : 201 Created
+
+>Método HTTP GET (1)
+- Rota (Endpoint) : /tasks
+- Operação CRUD : Read (List)
+- O que deve fazer : Retornar a lista de todas as tarefas cadastradas. Deve aceitar filtro opcional via URL (ex.: /tasks?status=pendente).
+- Status HTTP Esperado : 200 OK
+
+>Método HTTP GET (2)
+- Rota (Endpoint) : /tasks/:id
+- Operação CRUD : Read (Single)
+- O que deve fazer : Buscar e retornar apenas uma tarefa específica pelo seu id.
+- Status HTTP Esperado : 200 OK ou 404 Not Found
+
+>Método HTTP GET (PUT)
+- Rota (Endpoint) : /tasks/:id
+- Operação CRUD : Update
+- O que deve fazer : Atualizar o title, description ou status de uma tarefa existente a partir do seu id.
+- Status HTTP Esperado : 200 OK ou 404 Not Found
+
+>Método HTTP DELETE
+- Rota (Endpoint) : /tasks/:id
+- Operação CRUD : Delete
+- O que deve fazer : Remover uma tarefa existente a partir do seu id.
+- Status HTTP Esperado : 204 No Content ou 404 Not Found

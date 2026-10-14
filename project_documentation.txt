@@ -1,0 +1,29 @@
+###Documentação
+1. Configuração do Servidor e Rotas (Express + Node.js)
+Instalação e Hello World
+https://expressjs.com/pt-br/starter/installing.html
+https://expressjs.com/pt-br/starter/hello-world.html
+
+Como usar req.params, req.query e req.body
+https://expressjs.com/pt-br/guide/routing.html 
+
+2. TypeScript no Back-end
+Documentação Oficial do TypeScript (Tipagem de variáveis, interfaces e funções)
+https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+3. Protocolo HTTP (Métodos e Códigos de Status)
+MDN Web Docs — Métodos de Requisição HTTP (GET, POST, PUT, DELETE):
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+
+MDN Web Docs — Códigos de Status HTTP (200, 201, 400, 404):
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+4. Teste de API: https://insomnia.rest
+
+#O projeto se divide em 3 etapas:
+1. Construção da API
+2. Conectar ao banco de dados
+3. Criação de interface visual
+
+>Contexto: Desenvolvimento de back-end de um sistema de controle de tarefas utilizando Node.js com TypeScript e o framework Express. 
+A comunicação deve seguir o padrão REST, recebendo e respondendo dados no formato JSON.

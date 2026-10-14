@@ -1,0 +1,20 @@
+#Etapa 3
+>Regras de Negócio e Validações
+
+1. Validação de criação: Se o usuário tentar criar uma tarefa no POST /tasks sem enviar o campo title (ou enviando um texto vazio), 
+a API não deve salvar a tarefa e deve retornar o status 400 Bad Request com uma mensagem de erro em JSON.
+
+2. Validação de status: Ao atualizar uma tarefa no PUT /tasks/:id, 
+o campo status só pode aceitar três valores exatos: "pendente", "em_andamento" ou "concluida". 
+Qualquer valor diferente deve retornar status 400 Bad Request.
+
+3. Rota extra de estatísticas (GET /tasks/summary): 
+Criar uma rota que percorra a lista de tarefas com um loop e retorne um JSON com a contagem de quantas tarefas estão em cada status:
+
+>exemplo JSON
+{
+  "total": 5,
+  "pendente": 2,
+  "em_andamento": 2,
+  "concluida": 1
+}
